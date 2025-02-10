@@ -3,7 +3,7 @@ import {AlignText} from '../../../src/constants.js';
 export const props = [
 
   {
-    name: 'Workout',
+    name: 'Nay ăn gì ???',
     radius: 0.84,
     itemLabelRadius: 0.93,
     itemLabelRadiusMax: 0.35,
