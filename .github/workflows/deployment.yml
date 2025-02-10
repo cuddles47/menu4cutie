@@ -25,17 +25,16 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Copy files to docs directory
+      - name: Copy files to root directory
         run: |
-          rm -rf docs
-          mkdir -p docs
-          cp -r menu/themes/* docs/
+          rm -rf *
+          cp -r menu/themes/* .
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add docs
+          git add .
           git commit -m 'Deploy to GitHub Pages'
           git push
         env:
