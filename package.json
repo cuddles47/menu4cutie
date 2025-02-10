@@ -39,7 +39,7 @@
     "node": ">=14.8.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.5",
+    "browser-sync": "^3.0.3",
     "esbuild": "^0.15.11",
     "eslint": "^8.25.0",
     "jest": "^27.4.3",
