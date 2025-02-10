@@ -3,7 +3,7 @@ import {AlignText} from '../../../src/constants.js';
 export const props = [
 
   {
-    name: 'Nay ăn gì ???',
+    name: 'Thực đơn động vật ăn thịt',
     radius: 0.84,
     itemLabelRadius: 0.93,
     itemLabelRadiusMax: 0.35,
@@ -22,53 +22,72 @@ export const props = [
     overlayImage: './img/example-0-overlay.svg',
     items: [
       {
-        label: 'TWISTS',
+        label: 'Món Việt',
       },
       {
-        label: 'PRESS UPS',
+        label: 'Món Thái',
       },
       {
-        label: 'JOGGING',
+        label: 'Món Hàn',
       },
       {
-        label: 'SQUATS',
+        label: 'Món Nhật',
       },
       {
-        label: 'PLANKS',
+        label: 'Đồ Trung',
       },
       {
-        label: 'LUNGES',
+        label: 'Món Ấn Độ',
       },
       {
-        label: 'BURPIES',
+        label: 'Món Âu',
       },
       {
-        label: 'CRUNCHES',
+        label: 'Món Ý',
       },
       {
-        label: 'MOUNT. CLIMB',
+        label: 'Món chay',
       },
       {
-        label: 'STAR JUMPS',
+        label: 'Đồ nướng',
       },
       {
-        label: 'KANGAROOS',
+        label: 'Đồ chiên',
       },
       {
-        label: 'ROPE CLIMB',
+        label: 'Đồ nước',
       },
       {
-        label: 'KICK BOXING',
+        label: 'Đồ luộc/hấp',
       },
       {
-        label: 'WALL SIT',
+        label: 'Hải sản',
       },
-    ],
+      {
+        label: 'Lẩu',
+      },
+      {
+        label: 'Đồ ăn nhanh',
+      },
+      {
+        label: 'Đồ ăn vặt',
+      },
+      {
+        label: 'Bánh ngọt',
+      },
+      {
+        label: 'Tráng miệng',
+      },
+      {
+        label: 'Đồ uống',
+      },
+    ]
+    ,
 
   },
 
-  {
-    name: 'Takeaway',
+  /* {
+    name: 'Món Bắc',
     radius: 0.89,
     pointerAngle: 90,
     itemLabelRadius: 0.92,
@@ -393,5 +412,5 @@ export const props = [
       },
     ],
   },
-
+*/
 ];
